@@ -1,0 +1,28 @@
+{
+  "name": "node-bak",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/main",
+  "bin": {
+    "bak": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinzhan/bak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinzhan/bak/issues"
+  },
+  "homepage": "https://github.com/jinzhan/bak#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "sinon": "^9.2.3",
+    "yargs": "^16.2.0"
+  }
+}
